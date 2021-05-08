@@ -1,13 +1,14 @@
 version: "3.8"
 services:
-  patient:
+  service:
     image: jockeftw/ninjakatt
     restart: always
     environment:
-      - PLUGINDIR=/config/plugins
+      - PLUGINDIR=/plugins
       - APPDATA=/config
+      - PLUGINS=["files", "logger", "qbittorrent", "movies", "webserver", "torrentrss"]
     ports:
-      - "8080:8080"
+      - "8080:8585"
     volumes:
       - "C:\\Users\\linds\\AppData\\Roaming\\ninjakatt:/config"
       - "d:\\torrents:/downloads"
