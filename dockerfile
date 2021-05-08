@@ -2,6 +2,7 @@ FROM node:12-alpine
 
 # Copy files
 COPY entrypoint.sh /entrypoint.sh
+RUN ["chmod", "+x", "/entrypoint.sh"]
 
 # Copy and install plugins
 COPY ninjakatt /app
