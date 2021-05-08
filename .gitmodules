@@ -16,3 +16,6 @@
 [submodule "ninjakatt-plugin-logger"]
 	path = ninjakatt-plugin-logger
 	url = git@github.com:lindstrm/ninjakatt-plugin-logger.git
+[submodule "ninjakatt"]
+	path = ninjakatt
+	url = git@github.com:lindstrm/ninjakatt.git
