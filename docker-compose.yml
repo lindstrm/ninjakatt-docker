@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  patient:
+    image: jockeftw/ninjakatt
+    restart: always
+    environment:
+      - PLUGINDIR=/config/plugins
+      - APPDATA=/config
+    ports:
+      - "8080:8080"
+    volumes:
+      - "C:\\Users\\linds\\AppData\\Roaming\\ninjakatt:/config"
+      - "d:\\torrents:/downloads"

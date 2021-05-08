@@ -1,0 +1,18 @@
+[submodule "ninjakatt-plugin-webserver"]
+	path = ninjakatt-plugin-webserver
+	url = git@github.com:lindstrm/ninjakatt-plugin-webserver.git
+[submodule "ninjakatt-plugin-qbittorrent"]
+	path = ninjakatt-plugin-qbittorrent
+	url = git@github.com:lindstrm/ninjakatt-plugin-qbittorrent.git
+[submodule "ninjakatt-plugin-files"]
+	path = ninjakatt-plugin-files
+	url = git@github.com:lindstrm/ninjakatt-plugin-files.git
+[submodule "ninjakatt-plugin-movies"]
+	path = ninjakatt-plugin-movies
+	url = git@github.com:lindstrm/ninjakatt-plugin-movies.git
+[submodule "ninjakatt-plugin-torrentrss"]
+	path = ninjakatt-plugin-torrentrss
+	url = git@github.com:lindstrm/ninjakatt-plugin-torrentrss.git
+[submodule "ninjakatt-plugin-logger"]
+	path = ninjakatt-plugin-logger
+	url = git@github.com:lindstrm/ninjakatt-plugin-logger.git
