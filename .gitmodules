@@ -1,6 +1,9 @@
 [submodule "ninjakatt-plugin-webserver"]
 	path = ninjakatt-plugin-webserver
 	url = git@github.com:lindstrm/ninjakatt-plugin-webserver.git
+[submodule "ninjakatt-plugin-telegram"]
+	path = ninjakatt-plugin-telegram
+	url = git@github.com:lindstrm/ninjakatt-plugin-telegram.git
 [submodule "ninjakatt-plugin-qbittorrent"]
 	path = ninjakatt-plugin-qbittorrent
 	url = git@github.com:lindstrm/ninjakatt-plugin-qbittorrent.git

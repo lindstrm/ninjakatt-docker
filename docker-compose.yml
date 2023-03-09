@@ -6,7 +6,7 @@ services:
     environment:
       - PLUGINDIR=/plugins
       - APPDATA=/config
-      - PLUGINS=["files", "logger", "qbittorrent", "movies", "webserver", "torrentrss"]
+      - PLUGINS=["files", "logger", "qbittorrent", "movies", "webserver", "torrentrss", "telegram"]
     ports:
       - "8080:8585"
     volumes:
